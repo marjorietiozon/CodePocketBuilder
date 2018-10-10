@@ -3,7 +3,9 @@
  * @author github.com/jamesdeperio
  **/
 package ${packageName}.appmodule.${packageFolderName}
+<#if withAdapter== "YES">
 import kotlinx.coroutines.experimental.Job
+ </#if>
 interface ${contractClass} {
     interface Event
 
